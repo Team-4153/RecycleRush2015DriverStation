@@ -32,6 +32,8 @@
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="preset.ini" Type="Document" URL="../data/preset.ini"/>
 		<Item Name="ReadDashValues.vi" Type="VI" URL="../ReadDashValues.vi"/>
+		<Item Name="InitializeLED.vi" Type="VI" URL="../LEDdriver/LabVIEWvis/InitializeLED.vi"/>
+		<Item Name="Shutdown.vi" Type="VI" URL="../LEDdriver/LabVIEWvis/Shutdown.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
@@ -222,6 +224,7 @@
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="Prepare Joystick Data for Displays.vi" Type="VI" URL="../Prepare Joystick Data for Displays.vi"/>
+			<Item Name="PacDrive32.dll" Type="Document" URL="../LEDdriver/PacDriveSDK/dlls/PacDrive32.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
