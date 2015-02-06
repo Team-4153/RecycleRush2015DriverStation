@@ -36,6 +36,7 @@
 		<Item Name="Shutdown.vi" Type="VI" URL="../LEDdriver/LabVIEWvis/Shutdown.vi"/>
 		<Item Name="LEDstateintensity.vi" Type="VI" URL="../LEDdriver/LabVIEWvis/LEDstateintensity.vi"/>
 		<Item Name="LEDseflash.vi" Type="VI" URL="../LEDdriver/LabVIEWvis/LEDseflash.vi"/>
+		<Item Name="test.vi" Type="VI" URL="../LEDdriver/LabVIEWvis/test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
