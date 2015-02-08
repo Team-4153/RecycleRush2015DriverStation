@@ -27,16 +27,22 @@
 			<Item Name="DStoPCPacketTypeDef.ctl" Type="VI" URL="../DStoPCPacketTypeDef.ctl"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="LEDs" Type="Folder">
+				<Item Name="InitializeLED.vi" Type="VI" URL="../LEDdriver/LabVIEWvis/InitializeLED.vi"/>
+				<Item Name="test.vi" Type="VI" URL="../LEDdriver/LabVIEWvis/test.vi"/>
+				<Item Name="LEDstateintensity.vi" Type="VI" URL="../LEDdriver/LabVIEWvis/LEDstateintensity.vi"/>
+				<Item Name="LEDseflash.vi" Type="VI" URL="../LEDdriver/LabVIEWvis/LEDseflash.vi"/>
+				<Item Name="Shutdown.vi" Type="VI" URL="../LEDdriver/LabVIEWvis/Shutdown.vi"/>
+				<Item Name="PresetValues.ctl" Type="VI" URL="../buttons/PresetValues.ctl"/>
+			</Item>
 			<Item Name="ArduinoSerialReadWrite.vi" Type="VI" URL="../arduino/ArduinoSerialReadWrite.vi"/>
+			<Item Name="ElevatorPresets.vi" Type="VI" URL="../buttons/ElevatorPresets.vi"/>
+			<Item Name="LightPresetButtons.vi" Type="VI" URL="../buttons/LightPresetButtons.vi"/>
+			<Item Name="ReadDashValues.vi" Type="VI" URL="../ReadDashValues.vi"/>
+			<Item Name="WriteDashValues.vi" Type="VI" URL="../WriteDashValues.vi"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="preset.ini" Type="Document" URL="../data/preset.ini"/>
-		<Item Name="ReadDashValues.vi" Type="VI" URL="../ReadDashValues.vi"/>
-		<Item Name="InitializeLED.vi" Type="VI" URL="../LEDdriver/LabVIEWvis/InitializeLED.vi"/>
-		<Item Name="Shutdown.vi" Type="VI" URL="../LEDdriver/LabVIEWvis/Shutdown.vi"/>
-		<Item Name="LEDstateintensity.vi" Type="VI" URL="../LEDdriver/LabVIEWvis/LEDstateintensity.vi"/>
-		<Item Name="LEDseflash.vi" Type="VI" URL="../LEDdriver/LabVIEWvis/LEDseflash.vi"/>
-		<Item Name="test.vi" Type="VI" URL="../LEDdriver/LabVIEWvis/test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
