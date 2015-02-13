@@ -33,16 +33,37 @@
 				<Item Name="LEDstateintensity.vi" Type="VI" URL="../LEDdriver/LabVIEWvis/LEDstateintensity.vi"/>
 				<Item Name="LEDseflash.vi" Type="VI" URL="../LEDdriver/LabVIEWvis/LEDseflash.vi"/>
 				<Item Name="Shutdown.vi" Type="VI" URL="../LEDdriver/LabVIEWvis/Shutdown.vi"/>
+				<Item Name="LEDPorts.ctl" Type="VI" URL="../LEDdriver/LEDPorts.ctl"/>
 				<Item Name="PresetValues.ctl" Type="VI" URL="../buttons/PresetValues.ctl"/>
+				<Item Name="LightPresetButtons.vi" Type="VI" URL="../buttons/LightPresetButtons.vi"/>
 			</Item>
-			<Item Name="ArduinoSerialReadWrite.vi" Type="VI" URL="../arduino/ArduinoSerialReadWrite.vi"/>
-			<Item Name="ElevatorPresets.vi" Type="VI" URL="../buttons/ElevatorPresets.vi"/>
-			<Item Name="LightPresetButtons.vi" Type="VI" URL="../buttons/LightPresetButtons.vi"/>
-			<Item Name="ReadDashValues.vi" Type="VI" URL="../ReadDashValues.vi"/>
-			<Item Name="WriteDashValues.vi" Type="VI" URL="../WriteDashValues.vi"/>
+			<Item Name="Arduino" Type="Folder">
+				<Item Name="ArduinoLeonardoReadDI.vi" Type="VI" URL="../arduino/ArduinoLeonardoReadDI.vi"/>
+				<Item Name="testLeonardo.vi" Type="VI" URL="../arduino/testLeonardo.vi"/>
+				<Item Name="ArduinoSerialReadWrite.vi" Type="VI" URL="../arduino/ArduinoSerialReadWrite.vi"/>
+			</Item>
+			<Item Name="PresetFile" Type="Folder">
+				<Item Name="ReadDashValues.vi" Type="VI" URL="../ReadDashValues.vi"/>
+				<Item Name="WriteDashValues.vi" Type="VI" URL="../WriteDashValues.vi"/>
+			</Item>
+			<Item Name="readButtons" Type="Folder">
+				<Item Name="ContainerOffset.vi" Type="VI" URL="../buttons/ContainerOffset.vi"/>
+				<Item Name="PlatformOffset.vi" Type="VI" URL="../PlatformOffset.vi"/>
+				<Item Name="ForkOpening.vi" Type="VI" URL="../ForkOpening.vi"/>
+				<Item Name="ElevatorPresets.vi" Type="VI" URL="../buttons/ElevatorPresets.vi"/>
+			</Item>
+			<Item Name="Xctrl" Type="Folder">
+				<Item Name="Robot2015.xctl" Type="XControl" URL="../Xctrl/Robot2015.xctl"/>
+				<Item Name="forksmall.png" Type="Document" URL="../Xctrl/forksmall.png"/>
+				<Item Name="forksmallClose.png" Type="Document" URL="../Xctrl/forksmallClose.png"/>
+				<Item Name="forksmallwide.png" Type="Document" URL="../Xctrl/forksmallwide.png"/>
+				<Item Name="framesmall.png" Type="Document" URL="../Xctrl/framesmall.png"/>
+				<Item Name="WP_20150210_19_51_32_Pro.psd" Type="Document" URL="../Xctrl/WP_20150210_19_51_32_Pro.psd"/>
+			</Item>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="preset.ini" Type="Document" URL="../data/preset.ini"/>
+		<Item Name="ForkOpening.ctl" Type="VI" URL="../ForkOpening.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
@@ -220,6 +241,8 @@
 				<Item Name="SD Read Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Boolean.vi"/>
 				<Item Name="SD Read Value.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Value.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
+				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
 			</Item>
 			<Item Name="Interpolate RGB Color.vi" Type="VI" URL="../Interpolate RGB Color.vi"/>
 			<Item Name="Playback Controls.vi" Type="VI" URL="../Playback Controls.vi"/>
