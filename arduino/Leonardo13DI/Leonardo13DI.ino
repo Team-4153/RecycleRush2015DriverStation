@@ -5,7 +5,7 @@ char out[100],in[100],tempstr[100];
 void setup() {
   Serial.begin(9600);
   Serial.setTimeout(500);
-  for (i=2;i<16;i++){
+  for (i=2;i<17;i++){
     pinMode(i, INPUT_PULLUP);
   }
 }
@@ -13,7 +13,7 @@ void setup() {
 void loop(){
   out[0]=0;
   strcat(out,"buttons");
-  for (i=2;i<16;i++){
+  for (i=2;i<17;i++){
     if (digitalRead(i)==HIGH){
       strcat(out,"0");
     }

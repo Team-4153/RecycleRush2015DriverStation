@@ -8,6 +8,12 @@
 	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
 	<Property Name="NI.XItem.Name" Type="Str">XControl 1</Property>
 	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Item Name="Container?" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Container?</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Container?</Property>
+		<Item Name="ContainerRead.vi" Type="Property VI" URL="../ContainerRead.vi"/>
+		<Item Name="ContainerWrite.vi" Type="Property VI" URL="../ContainerWrite.vi"/>
+	</Item>
 	<Item Name="Data 1.ctl" Type="Ability VI" URL="../Data 1.ctl">
 		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
 	</Item>
@@ -24,6 +30,12 @@
 		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Max</Property>
 		<Item Name="Max Read.vi" Type="Property VI" URL="../Max Read.vi"/>
 		<Item Name="Max Write.vi" Type="Property VI" URL="../Max Write.vi"/>
+	</Item>
+	<Item Name="Offset" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Offset</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Offset</Property>
+		<Item Name="Offset Read.vi" Type="Property VI" URL="../Offset Read.vi"/>
+		<Item Name="Offset Write.vi" Type="Property VI" URL="../Offset Write.vi"/>
 	</Item>
 	<Item Name="Opening" Type="Property Folder">
 		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Opening</Property>
