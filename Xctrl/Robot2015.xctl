@@ -31,6 +31,12 @@
 		<Item Name="Max Read.vi" Type="Property VI" URL="../Max Read.vi"/>
 		<Item Name="Max Write.vi" Type="Property VI" URL="../Max Write.vi"/>
 	</Item>
+	<Item Name="NBTotesUnder" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">NBcontainerUnder</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">NBTotesUnder</Property>
+		<Item Name="NBTotesUnder Read.vi" Type="Property VI" URL="../NBTotesUnder Read.vi"/>
+		<Item Name="NBTotesUnder Write.vi" Type="Property VI" URL="../NBTotesUnder Write.vi"/>
+	</Item>
 	<Item Name="Offset" Type="Property Folder">
 		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Offset</Property>
 		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Offset</Property>
