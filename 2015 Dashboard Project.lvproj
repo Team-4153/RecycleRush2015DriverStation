@@ -34,6 +34,7 @@
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="DStoPCPacketTypeDef.ctl" Type="VI" URL="../DStoPCPacketTypeDef.ctl"/>
+			<Item Name="ForkOpening.ctl" Type="VI" URL="../ForkOpening.ctl"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="LEDs" Type="Folder">
@@ -50,6 +51,7 @@
 				<Item Name="ArduinoLeonardoReadDI.vi" Type="VI" URL="../arduino/ArduinoLeonardoReadDI.vi"/>
 				<Item Name="testLeonardo.vi" Type="VI" URL="../arduino/testLeonardo.vi"/>
 				<Item Name="ArduinoSerialReadWrite.vi" Type="VI" URL="../arduino/ArduinoSerialReadWrite.vi"/>
+				<Item Name="FindArduino.vi" Type="VI" URL="../arduino/FindArduino.vi"/>
 			</Item>
 			<Item Name="PresetFile" Type="Folder">
 				<Item Name="ReadDashValues.vi" Type="VI" URL="../ReadDashValues.vi"/>
@@ -70,12 +72,13 @@
 				<Item Name="WP_20150210_19_51_32_Pro.psd" Type="Document" URL="../Xctrl/WP_20150210_19_51_32_Pro.psd"/>
 				<Item Name="testXctrl.vi" Type="VI" URL="../Xctrl/testXctrl.vi"/>
 			</Item>
+			<Item Name="LEDcst.vi" Type="VI" URL="../LEDcst.vi"/>
+			<Item Name="MoveDashboard.vi" Type="VI" URL="../MoveDashboard.vi"/>
+			<Item Name="initDB.vi" Type="VI" URL="../initDB.vi"/>
+			<Item Name="ContainerButtonTimer.vi" Type="VI" URL="../ContainerButtonTimer.vi"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="preset.ini" Type="Document" URL="../data/preset.ini"/>
-		<Item Name="ForkOpening.ctl" Type="VI" URL="../ForkOpening.ctl"/>
-		<Item Name="LEDcst.vi" Type="VI" URL="../LEDcst.vi"/>
-		<Item Name="MoveDashboard.vi" Type="VI" URL="../MoveDashboard.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
