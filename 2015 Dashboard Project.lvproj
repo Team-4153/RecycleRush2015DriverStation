@@ -52,6 +52,9 @@
 				<Item Name="testLeonardo.vi" Type="VI" URL="../arduino/testLeonardo.vi"/>
 				<Item Name="ArduinoSerialReadWrite.vi" Type="VI" URL="../arduino/ArduinoSerialReadWrite.vi"/>
 				<Item Name="FindArduino.vi" Type="VI" URL="../arduino/FindArduino.vi"/>
+				<Item Name="InitLeonardoAsJoystick.vi" Type="VI" URL="../buttons/InitLeonardoAsJoystick.vi"/>
+				<Item Name="CloseLeonardoAsJoystick.vi" Type="VI" URL="../buttons/CloseLeonardoAsJoystick.vi"/>
+				<Item Name="ReadLeonardoJoystick.vi" Type="VI" URL="../buttons/ReadLeonardoJoystick.vi"/>
 			</Item>
 			<Item Name="PresetFile" Type="Folder">
 				<Item Name="ReadDashValues.vi" Type="VI" URL="../ReadDashValues.vi"/>
@@ -283,6 +286,12 @@
 				<Item Name="Get Semaphore Status.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Get Semaphore Status.vi"/>
 				<Item Name="Create Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Create Semaphore.vi"/>
 				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
+				<Item Name="Initialize Joystick.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Initialize Joystick.vi"/>
+				<Item Name="Query Input Devices.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Query Input Devices.vi"/>
+				<Item Name="Close Input Device.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Close Input Device.vi"/>
+				<Item Name="closeJoystick.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/closeJoystick.vi"/>
+				<Item Name="closeKeyboard.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/closeKeyboard.vi"/>
+				<Item Name="closeMouse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/closeMouse.vi"/>
 			</Item>
 			<Item Name="Interpolate RGB Color.vi" Type="VI" URL="../Interpolate RGB Color.vi"/>
 			<Item Name="Playback Controls.vi" Type="VI" URL="../Playback Controls.vi"/>
