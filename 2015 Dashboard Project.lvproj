@@ -87,6 +87,8 @@
 		<Item Name="DropButtonTimer.vi" Type="VI" URL="../DropButtonTimer.vi"/>
 		<Item Name="FindClosestPreset.vi" Type="VI" URL="../FindClosestPreset.vi"/>
 		<Item Name="StepWiseQ.ctl" Type="VI" URL="../StepWiseQ.ctl"/>
+		<Item Name="intakeWheels.ctl" Type="VI" URL="../intakeWheels.ctl"/>
+		<Item Name="test.vi" Type="VI" URL="../LEDdriver/test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
